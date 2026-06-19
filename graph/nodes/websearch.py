@@ -1,5 +1,4 @@
-from ast import Dict
-from typing import Any
+from typing import Any, Dict
 from langchain_core.documents import Document
 from langchain_tavily import TavilySearch
 from dotenv import load_dotenv
