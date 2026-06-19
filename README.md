@@ -9,6 +9,8 @@
 
 5. web search node
 
+6. Generation node: when we've all the filtered docs and also performing search query for question that we want to answer
+
 
 
 
