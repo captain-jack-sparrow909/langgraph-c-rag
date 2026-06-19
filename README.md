@@ -7,8 +7,25 @@
 
 4. now we implement the document grader node, it'll iterate over the docs to determine whether those are indeed relevant to the question or not
 
+5. web search node
 
 
+
+
+
+
+Loaders for loading data from web, pdf etc:
+Loader → [Document, Document, ...]
+           ↓
+      TextSplitter → [smaller Document chunks]
+           ↓
+      Embeddings + VectorStore (stores page_content, indexes metadata)
+           ↓
+      Retriever → returns relevant [Document, Document, ...]
+           ↓
+      LLM chain (uses page_content as context)
+
+sample Document: Document(page_content="Paris is the capital of France.", metadata={"topic": "geography"}),
 
 
 
