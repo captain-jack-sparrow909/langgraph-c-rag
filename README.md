@@ -32,4 +32,6 @@ sample Document: Document(page_content="Paris is the capital of France.", metada
 
 
 
-diagram of C-RAG: image.png
+diagram of C-RAG: take a look of image.png
+
+
